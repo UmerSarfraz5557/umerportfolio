@@ -8,14 +8,16 @@ const Footer = () => {
       <div className="w-full h-full flex flex-col gap-8">
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
+        <span className="bannerIcon">
+            <a href="https://twitter.com/UmerSarfraz57">
             <FaTwitter />
+            </a>
+      
           </span>
           <span className="bannerIcon">
-            <FaLinkedinIn />
+            <a href="https://www.linkedin.com/in/umer-sarfraz/">
+              <FaLinkedinIn />
+            </a>
           </span>
         </div>
       </div>
@@ -56,7 +58,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="w-full h-full">
+      {/* <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           RESOURCES
         </h3>
@@ -129,7 +131,7 @@ const Footer = () => {
             </span>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }

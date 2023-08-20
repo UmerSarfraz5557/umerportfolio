@@ -15,27 +15,30 @@ const Experience = () => {
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+         
+        <ResumeCard
+            title="Freelance mobile App Developer"
+            subTitle="Upwork - Top Rated - (present)"
+            result="Remote"
+            des="As an experienced freelance developer on Upwork, I have developed multiple applications for clients, receiving stellar feedback and consistently earning a 5-star rating."
           />
+         
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Sr. Mobile App Developer"
+            subTitle="Hazel Mobile (2022 - 2023)"
+            result="Pakistan"
+            des="As a Senior Mobile App Developer at Hazel Mobile, my primary responsibilities include building mobile applications from the initial stages to completion with a team. Additionally, I train interns and mentor junior developers to promote their growth and development in mobile app development. Furthermore, I collaborate with developers from other departments to assist in their projects and ensure the overall success of the company's mobile app objectives."
           />
+         
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Sr. Android & IOS Developer"
+            subTitle="TechReneur Solutions - (2020 - 2021)"
+            result="Pakistan"
+            des=""
           />
         </div>
       </div>
-      <div>
+      {/* <div>
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
           <h2 className="text-4xl font-bold">Trainer Experience</h2>
@@ -60,7 +63,7 @@ const Experience = () => {
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 };
