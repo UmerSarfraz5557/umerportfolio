@@ -92,8 +92,8 @@ const Testimonial = () => {
       id="testimonial"
       className="w-full py-20 border-b-[1px] border-b-black"
     >
-      <div className="flex justify-center items-center text-center">
-        <Title title="WHAT CLIENTS SAY" des="Testimonial" />
+      <div className="flex justify-left items-center text-center">
+        <Title title="" des="Testimonials" />
       </div>
       <div className="max-w-6xl mx-auto">
         <Slider {...settings}>

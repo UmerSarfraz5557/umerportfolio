@@ -10,10 +10,10 @@ const Projects = () => {
       id="projects"
       className="w-full py-20 border-b-[1px] border-b-black"
     >
-      <div className="flex justify-center items-center text-center">
+      <div className="flex justify-left items-center text-center">
         <Title
-          title="Following are the projects i made for direct cleints and companies"
-          des="Code In Action"
+          title=""
+          des="Delivered Projects"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">

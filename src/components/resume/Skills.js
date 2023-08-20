@@ -10,9 +10,7 @@ const Skills = () => {
     >
       {/* <div className="w-full lgl:w-1/2">
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px] uppercase">
-            Features
-          </p>
+      
           <h2 className="text-3xl md:text-4xl font-bold">Design Skill</h2>
         </div>
         <div className='className="mt-14 w-full flex flex-col gap-6'>
@@ -84,16 +82,13 @@ const Skills = () => {
         </div>
       </div> */}
 
-      <div className="w-full lgl:w-1/2">
-        <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px] uppercase">
-            Features
-          </p>
-          <h2 className="text-3xl md:text-4xl font-bold">Development Skill</h2>
+      <div className="w-full ">
+        <div className="py-8 font-titleFont flex flex-col gap-4">
+         
         </div>
         <div className="flex flex-col gap-6">
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">Android Development (Java/ Kotlin)</p>
+            <p className="text-lg uppercase font-medium">Android Development (Java/ Kotlin)</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -106,7 +101,7 @@ const Skills = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">iOS Development (Swift)</p>
+            <p className="text-lg uppercase font-medium">iOS Development (Swift)</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -119,7 +114,7 @@ const Skills = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">React-Native</p>
+            <p className="text-lg uppercase font-medium">React-Native</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -133,7 +128,7 @@ const Skills = () => {
           </div>
           
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">MERN Stack</p>
+            <p className="text-lg uppercase font-medium">MERN Stack</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
