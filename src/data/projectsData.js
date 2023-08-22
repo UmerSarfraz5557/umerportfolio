@@ -1,4 +1,11 @@
-import { projectOne, projectTwo, projectThree, projectFour, projectFive } from "../assets";
+import {
+  projectOne,
+  projectTwo,
+  projectThree,
+  projectFour,
+  projectFive,
+  projectSix,
+} from "../assets";
 
 const Store = {
   GOOGLE: "GOOGLE",
@@ -21,7 +28,7 @@ const projectData = [
   {
     id: 2,
     title: "Floota Satellital - Android & iOS",
-    des: "Gadel, an innovative social media hub that revolutionizes online engagement. With Gadel user can unveil their creativity through effortless content sharing, engaging conversations, and captivating live streams. It has a uniquely inviting user interface, meticulously crafted to offer an intuitive and visually pleasing experience. Embracing the core value of free expression, Gadel empower it's users to share their thoughts respectfully, fostering an atmosphere of open dialogue.",
+    des: "An innovative fleet management app, tailored for optimizing vehicular operations. This cutting-edge application empowers administrators with an interactive map display showcasing vehicle routes, while offering comprehensive vehicle insights and control. With features like real-time on/off toggles and dynamic route playback, administrators can effortlessly navigate through fleet activities. What sets it apart is the array of customizable UI formats, demonstrating advanced user interface design.",
     cover: projectFive,
     links: [
       {
@@ -44,6 +51,15 @@ const projectData = [
   },
   {
     id: 4,
+    title: "Marca De Choferes - Android & iOS",
+    des: "The Ultimate App for Tracking and monitoring employees: Streamline work activity tracking with Marca De Choferes – an elegant, user-friendly app tailored for truck drivers. Effortlessly log work, break times, and status with its intuitive interface. Enjoy offline and online functionality for use anywhere. Stay compliant and efficient while on the road. Elevate your trucking experience with Marca De Choferes. Your journey, simplified.",
+    cover: projectSix,
+    links: [
+      
+    ],
+  },
+  {
+    id: 5,
     title: "Gadel - Android & iOS",
     des: "Gadel, an innovative social media hub that revolutionizes online engagement. With Gadel user can unveil their creativity through effortless content sharing, engaging conversations, and captivating live streams. It has a uniquely inviting user interface, meticulously crafted to offer an intuitive and visually pleasing experience. Embracing the core value of free expression, Gadel empower it's users to share their thoughts respectfully, fostering an atmosphere of open dialogue.",
     cover: projectThree,
@@ -55,9 +71,9 @@ const projectData = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Go Daala - Android",
-    des: "Gadel, an innovative social media hub that revolutionizes online engagement. With Gadel user can unveil their creativity through effortless content sharing, engaging conversations, and captivating live streams. It has a uniquely inviting user interface, meticulously crafted to offer an intuitive and visually pleasing experience. Embracing the core value of free expression, Gadel empower it's users to share their thoughts respectfully, fostering an atmosphere of open dialogue.",
+    des: "Go Daala - solution for hassle-free heavy load transportation. With it's sleek and intuitive app, moving massive loads from point A to B has never been smoother. It's top-notch user interface ensures effortless navigation, while integrated maps provide real-time tracking and optimized routes. Go Daala connects you with a network of reliable and specialized truck drivers.",
     cover: projectFour,
     links: [
       {
@@ -66,7 +82,6 @@ const projectData = [
       },
     ],
   },
- 
 ];
 
 export { projectData, Store };
