@@ -8,19 +8,19 @@ export const featuresData = [
     id: 1,
     icon: <FaAndroid />,
     title: "Android Development",
-    des: "With my extensive experience in Android development using Kotlin and Java, I can create efficient and user-friendly apps that meet your unique requirements. I work closely with clients to ensure their vision is realized and their app is optimized for performance and functionality. Choose me for your Android development needs and experience the satisfaction of working with a seasoned professional.",
+    des: "Drawing from my substantial background in Android development utilizing Kotlin and Java, I have the ability to craft streamlined and user-centric apps tailored to your specific needs. I prioritize close collaboration with clients to translate their visions into reality while enhancing app performance and functionality. Opt for my Android development services to enjoy the rewarding experience of partnering with a seasoned professional dedicated to your project's success.",
   },
   {
     id: 3,
     icon: <FaApple />,
     title: "iOS Development",
-    des: "As an experienced iOS developer specializing in Swift, I create exceptional iOS apps that exceed expectations. I work closely with clients to ensure their unique requirements are met and their vision is realized. With my commitment to quality and expertise in iOS development, you can trust that your app will be optimized for performance and functionality. Choose me for your iOS development needs and bring your app to life.",
+    des: "Bringing my expertise as a seasoned iOS developer focused on Swift, I design outstanding iOS apps that surpass expectations. Collaborating closely with clients, I ensure their distinct needs are met and their creative visions are actualized. With a dedication to excellence and in-depth iOS development skills, I guarantee your app will achieve peak performance and functionality. Opt for my iOS development services to give life to your app and experience the difference.",
   },
   {
     id: 4,
     icon: <FaReact />,
     title: "React-Native Development",
-    des: "Our team specializes in cross-platform mobile app development using React Native. With our deep understanding of the platform and commitment to quality, we build exceptional apps that meet your unique requirements. Work closely with us throughout the development process to ensure that your vision is realized and that your app is optimized for performance and functionality. Choose us for your React Native development needs and experience the satisfaction of working with a team of seasoned professionals.",
+    des: "I specialize in developing cross-platform mobile apps using React Native, drawing from my experience in native Android and iOS development. Crafting customized apps to fit your needs is my priority, and I emphasize collaboration to ensure your vision comes to life with optimized performance. With me, you're getting a dedicated professional focused on making your React Native project a success.",
   },
   // {
   //   id: 5,

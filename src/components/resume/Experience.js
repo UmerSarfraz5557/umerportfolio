@@ -11,7 +11,7 @@ const Experience = () => {
     >
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          {/* <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p> */}
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
@@ -20,7 +20,7 @@ const Experience = () => {
             title="Freelance mobile App Developer"
             subTitle="Upwork - Top Rated - (present)"
             result="Remote"
-            des="As an experienced freelance developer on Upwork, I have developed multiple applications for clients, receiving stellar feedback and consistently earning a 5-star rating."
+            des="As an Upwork Freelancer, I engage in the creation and management of projects for clients worldwide. Over the course of several years catering to client needs, I've garnered exceptional feedback and consistently achieved a 5-star rating."
           />
          
           <ResumeCard
