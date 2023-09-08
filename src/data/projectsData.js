@@ -27,15 +27,10 @@ const projectData = [
   },
   {
     id: 2,
-    title: "Floota Satellital - Android & iOS",
+    title: "Flota Satellital - Android & iOS",
     des: "An innovative fleet management app, tailored for optimizing vehicular operations. This cutting-edge application empowers administrators with an interactive map display showcasing vehicle routes, while offering comprehensive vehicle insights and control. With features like real-time on/off toggles and dynamic route playback, administrators can effortlessly navigate through fleet activities. What sets it apart is the array of customizable UI formats, demonstrating advanced user interface design.",
     cover: projectFive,
-    links: [
-      {
-        store: Store.GOOGLE,
-        link: "https://play.google.com/store/apps/details?id=com.gadel.seeuploadit",
-      },
-    ],
+    links: [],
   },
   {
     id: 3,
