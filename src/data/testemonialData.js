@@ -25,7 +25,7 @@ export const testemonialData = [
         id: 3,
         rating: 5,
         productName : "PaineLb",
-        clientName: "Agade Soloutins",
+        clientName: "Sandro A Costa",
         cleintDesignation : "CEO",
         isMale : true,
         jobTitle : "Maintain/Updgrade Accident Reporting App",

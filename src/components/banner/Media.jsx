@@ -7,6 +7,7 @@ import {
   FaAndroid,
   FaApple,
   FaNode,
+  FaGithub,
 } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs, SiUpwork } from "react-icons/si";
 const Media = () => {
@@ -23,6 +24,11 @@ const Media = () => {
           <span className="bannerIcon">
             <a href="https://www.linkedin.com/in/umer-sarfraz/">
               <FaLinkedinIn />
+            </a>
+          </span>
+          <span className="bannerIcon">
+            <a href="https://github.com/umersarfraz5557">
+              <FaGithub />
             </a>
           </span>
           <span className="bannerIcon">

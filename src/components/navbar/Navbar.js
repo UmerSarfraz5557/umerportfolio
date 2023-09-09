@@ -115,7 +115,7 @@ const Navbar = () => {
         <a href="#" className={active === "#" ? 'active' : ''} onClick={()=>{setActive("#")}}>
           <AiOutlineHome />
         </a>
-        <a href="#features" className={active === "#features" ? 'active' : ''}  onClick={()=>{setActive("#features")}}>
+        <a href="#services" className={active === "#services" ? 'active' : ''}  onClick={()=>{setActive("#services")}}>
           <RiServiceLine />
         </a>
         <a href="#projects" className={active === "#projects" ? 'active' : ''} onClick={()=>{setActive("#projects")}} >

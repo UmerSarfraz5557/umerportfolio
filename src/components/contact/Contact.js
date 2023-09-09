@@ -53,7 +53,7 @@ const Contact = () => {
       <div className="flex justify-left items-center text-center">
         <Title title="" des="Contact  Me" />
       </div>
-      <div className="w-full">
+      <div className="w-full flex justify-center items-center bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne ">
         {/* <div className="w-full h-auto flex flex-col lgl:flex-row justify-between"> */}
           <ContactLeft />
           {/* <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
