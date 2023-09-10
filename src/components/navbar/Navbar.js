@@ -15,7 +15,7 @@ import "./nav.css";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const [active , setActive] = useState("#");
+  const [active, setActive] = useState("#");
   // const oldNavBar = () => {
   //   return (
   //     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
@@ -111,23 +111,59 @@ const Navbar = () => {
 
   const bottomNavBar = () => {
     return (
-      <nav  >
-        <a href="#" className={active === "#" ? 'active' : ''} onClick={()=>{setActive("#")}}>
+      <nav className="z-11">
+        <a
+          href="#"
+          className={active === "#" ? "active" : ""}
+          onClick={() => {
+            setActive("#");
+          }}
+        >
           <AiOutlineHome />
         </a>
-        <a href="#services" className={active === "#services" ? 'active' : ''}  onClick={()=>{setActive("#services")}}>
+        <a
+          href="#services"
+          className={active === "#services" ? "active" : ""}
+          onClick={() => {
+            setActive("#services");
+          }}
+        >
           <RiServiceLine />
         </a>
-        <a href="#projects" className={active === "#projects" ? 'active' : ''} onClick={()=>{setActive("#projects")}} >
+        <a
+          href="#projects"
+          className={active === "#projects" ? "active" : ""}
+          onClick={() => {
+            setActive("#projects");
+          }}
+        >
           <BiBook />
         </a>
-        <a href="#resume" className={active === "#resume" ? 'active' : ''} onClick={()=>{setActive("#resume")}}>
+        <a
+          href="#resume"
+          className={active === "#resume" ? "active" : ""}
+          onClick={() => {
+            setActive("#resume");
+          }}
+        >
           <CgProfile />
         </a>
-        <a href="#testimonial" className={active === "#testimonial" ? 'active' : ''} onClick={()=>{setActive("#testimonial")}}>
+        <a
+          href="#testimonial"
+          className={active === "#testimonial" ? "active" : ""}
+          onClick={() => {
+            setActive("#testimonial");
+          }}
+        >
           <MdOutlineGeneratingTokens />
         </a>
-        <a href="#contact" className={active === "#contact" ? 'active' : ''} onClick={()=>{setActive("#contact")}}>
+        <a
+          href="#contact"
+          className={active === "#contact" ? "active" : ""}
+          onClick={() => {
+            setActive("#contact");
+          }}
+        >
           <BiMessageSquareDetail />
         </a>
       </nav>
