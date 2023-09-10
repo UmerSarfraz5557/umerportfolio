@@ -111,7 +111,7 @@ const Navbar = () => {
 
   const bottomNavBar = () => {
     return (
-      <nav className="z-11">
+      <nav className="z-20">
         <a
           href="#"
           className={active === "#" ? "active" : ""}
